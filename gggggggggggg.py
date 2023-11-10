@@ -9,7 +9,7 @@ num = 29
 flag = False
 
 if num == 1:
-    print(num, "not a prime number")
+    print(num, "is not a prime number")
 elif num > 1:
     # check for factors
     for i in range(2, num):
@@ -21,6 +21,6 @@ elif num > 1:
 
     # check if flag is True
     if flag:
-        print(num, "not a prime number")
+        print(num, " is not a prime number")
     else:
-        print(num, "prime number")
+        print(num, "is a prime number")
