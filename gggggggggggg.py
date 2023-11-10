@@ -18,8 +18,6 @@ elif num > 1:
             flag = True
             # break out of loop
             break
-
-    # check if flag is True
     if flag:
         print(num, "dddddddd")
     else:
